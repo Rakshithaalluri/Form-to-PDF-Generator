@@ -26,12 +26,17 @@ A web application that allows users to fill out a form with their personal, educ
    
 ### Usage
 Open the index.html file in a web browser.
+
 Fill out the form with your personal information, educational background, and professional experience.
+
 Click on Generate PDF to create a PDF with your filled information.
+
 The generated PDF will be automatically downloaded.
 
 ### File Structure
 index.html - Main HTML file with the form layout
+
 style.css - CSS file for styling the form
+
 script.js - JavaScript file for handling form data and generating the PDF
 
