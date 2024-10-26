@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Background Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Education & Professional Background Form</h1>
+    
+    <form id="educationForm">
+        <!-- Personal Information -->
+        <div class="form-section">
+            <h2>Personal Information</h2>
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+        </div>
+
+        <!-- Educational Background -->
+        <div class="form-section">
+            <h2>Educational Background</h2>
+            <div class="form-group">
+                <label for="highestDegree">Highest Degree Obtained:</label>
+                <select id="highestDegree" name="highestDegree" required>
+                    <option value="">Select Degree</option>
+                    <option value="highSchool">High School</option>
+                    <option value="bachelor">Bachelor's Degree</option>
+                    <option value="master">Master's Degree</option>
+                    <option value="phd">Ph.D.</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="university">Institution Name:</label>
+                <input type="text" id="university" name="university" required>
+            </div>
+            <div class="form-group">
+                <label for="graduationYear">Year of Graduation:</label>
+                <input type="text" id="graduationYear" name="graduationYear" required>
+            </div>
+            <div class="form-group">
+                <label for="major">Field of Study/Major:</label>
+                <input type="text" id="major" name="major" required>
+            </div>
+        </div>
+
+        <!-- Professional Experience -->
+        <div class="form-section">
+            <h2>Professional Experience</h2>
+            <div class="form-group">
+                <label for="currentPosition">Current Position:</label>
+                <input type="text" id="currentPosition" name="currentPosition">
+            </div>
+            <div class="form-group">
+                <label for="yearsExperience">Years of Experience:</label>
+                <input type="text" id="yearsExperience" name="yearsExperience">
+            </div>
+            <div class="form-group">
+                <label for="skills">Key Skills:</label>
+                <textarea id="skills" name="skills" rows="4"></textarea>
+            </div>
+        </div>
+
+        <button type="submit">Generate PDF</button>
+    </form>
+</body>
+</html>
