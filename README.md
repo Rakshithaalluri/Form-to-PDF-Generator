@@ -20,9 +20,10 @@ A web application that allows users to fill out a form with their personal, educ
 
 1. Clone the repository:
    git clone https://github.com/yourusername/Education-Background-Form.git
+   
    cd Education-Background-Form
    
-2. Open index.html in your preferred web browser to view and test the application.
+3. Open index.html in your preferred web browser to view and test the application.
    
 ### Usage
 Open the index.html file in a web browser.
