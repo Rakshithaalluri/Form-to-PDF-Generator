@@ -19,7 +19,7 @@ A web application that allows users to fill out a form with their personal, educ
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/Education-Background-Form.git
+   git clone https://github.com/Rakshithaalluri/Form-to-PDF-Generator
    
    cd Education-Background-Form
    
